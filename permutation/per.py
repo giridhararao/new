@@ -11,7 +11,7 @@ def per(a):
 			for p in per(xs):
 				l.append([x]+p)
 		return(l)
-a=input()
+a=raw_input()
 if a.isdigit():
 	data=list(a)
 	w=[]
