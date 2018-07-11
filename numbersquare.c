@@ -1,5 +1,5 @@
 #include<stdio.h>
-int main()
+main()
 {
 int a,b[100],i=0,j=0,k;
 scanf("%d",&a);
@@ -14,5 +14,5 @@ for(k=0;k<i;k++)
 j=j+(b[k]*b[k]);
 }
 printf("%d",j);
-return(0);
+
 }
