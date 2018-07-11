@@ -3,7 +3,7 @@ if len(g)<100000:
      c=['d','h','o','n','i']
      m=[]
      for i in range(0,len(g)):
-              m.append(a[i])
+              m.append(g[i])
      res=[]
      if len(m)==len(c):
         for i in m:
