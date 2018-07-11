@@ -1,6 +1,5 @@
 a=raw_input()
 b=raw_input()
 if b in a:
-    print "yes"
-else:
-    print"no"
+	y=a.index(b[0])
+print y
