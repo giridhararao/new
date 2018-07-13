@@ -7,4 +7,8 @@ for i in range(a):
     c.append(x)
 for i in c:
     d=d+i
-print(d)
+if(d==0):
+    c.sort()
+    print(c[a-1])
+else:
+    print(d)
