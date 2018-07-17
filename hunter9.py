@@ -1,6 +1,7 @@
 a=int(input())
 b=input().split()
 c=[]
+e=0
 for i in range(a):
     c.append(int(b[i]))
 for i in range(a):
@@ -9,5 +10,7 @@ for i in range(a):
             d=c[i]+c[j]
             if(d==0):
                 print(str(c[i])+" "+str(c[j]))
-                break
-            break
+                e=e+1
+        break
+if(e==0):
+    print("-1 2")
