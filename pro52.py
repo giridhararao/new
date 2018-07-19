@@ -23,7 +23,7 @@ if a[0].isdigit() and a[1].isdigit():
 					g=0
 				if c[0]==d[0]:
 					h=int(c[1])-int(d[1])
-          h=abs(h)
+					h=abs(h)
 				else:
 					h=0
 				if(e==f==g==h):
